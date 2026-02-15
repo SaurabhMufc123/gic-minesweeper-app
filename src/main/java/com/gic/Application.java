@@ -6,10 +6,6 @@ import com.gic.service.MinesweeperService;
 import java.util.Scanner;
 
 public class Application {
-    /*public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }*/
-
 
     public static void main(String[] args) {
 
@@ -31,7 +27,7 @@ public class Application {
 
         while (service.getState().name().equals("IN_PROGRESS")) {
 
-            console.printBoard(service.getMatrix());
+            console.printGameMatrix(service.getMatrix());
 
             System.out.println("Enter row and column:");
 
@@ -42,7 +38,7 @@ public class Application {
             service.reveal(row, col);
         }
 
-        console.printBoard(service.getMatrix());
+        console.printGameMatrix(service.getMatrix());
 
         System.out.println("Game Over: " + service.getState());
     }

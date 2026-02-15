@@ -3,7 +3,7 @@ package com.gic.console;
 import com.gic.model.*;
 
 public class MinesweeperInterface {
-    public void printBoard(Matrix matrix) {
+    public void printGameMatrix(Matrix matrix) {
 
         int size = matrix.getSize();
 
