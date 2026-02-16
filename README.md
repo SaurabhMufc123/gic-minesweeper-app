@@ -8,6 +8,7 @@ The project follows:
 -   Strategy Pattern
 -   Test‑Driven Development (TDD)
 -   Clean and modular design
+-   Maven Project Structure
 
 ## 1. Strategy Pattern
 
